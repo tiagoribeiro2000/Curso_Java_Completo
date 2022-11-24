@@ -1,3 +1,17 @@
+/*
+ * Este exercício pude aprender saída de dados com Java
+ * System.out.println 
+ * System.out.print
+ * System.out.printf
+ * %d
+ * %f
+ * %f
+ * %n
+ * Locale
+ * Como concatenar vários elementos em um mesmo comando de escrita
+ */
+
+import java.util.Locale;
 
 public class SaidaDeDados {
 
@@ -22,6 +36,10 @@ public class SaidaDeDados {
 	System.out.println(product1+","+" which price is "+price1);
 	System.out.println(product2+","+"which price is "+price2);
     System.out.println("Record "+age+" years old, code "+code+" and gender: "+gender);
+    System.out.println("Measure with eight decimal places: "+measure);
+    System.out.printf("Rouded (three decimal places): "+"%.3f%n",measure);
+    Locale.setDefault(Locale.US);
+    System.out.printf("US decimal point: "+"%.3f%n",measure);
 
 	}
 
