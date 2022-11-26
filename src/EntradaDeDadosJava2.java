@@ -21,6 +21,7 @@ public class EntradaDeDadosJava2 {
 		s1 = sc.nextLine();
 		s2 = sc.nextLine();
 		s3 = sc.nextLine();
+		
 		System.out.println("DADOS DIGITADOS:");
 		System.out.println(s1);
 		System.out.println(s2);
