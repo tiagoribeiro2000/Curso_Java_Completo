@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 /*
  * Nesta aula aprendi sobre 
  * Scanner utilizando
@@ -10,22 +12,23 @@
  * Como limpar o buffer de leitura
  * */
 
-import java.util.Locale;
-import java.util.Scanner;
 
-public class ExercicioEstruturaSequencial4 {
+public class ExercicioEstruturaSequencial5 {
 
 	public static void main(String[] args) {
 
-		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		
-		double A,R,pi=3.14159;
-		R=sc.nextDouble();
+		int A,B,C,D,DIF;
 		
-		A=pi*R*R;
-		System.out.printf("A área é %.4f%n",A);
+		A=sc.nextInt();
+		B=sc.nextInt();
+		C=sc.nextInt();
+		D=sc.nextInt();
 		
+		DIF=A * B - C * D;
+		
+		System.out.println("Diferenca =" + DIF);
 		sc.close();
 
 	}
